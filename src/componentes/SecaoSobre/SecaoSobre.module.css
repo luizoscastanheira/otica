@@ -1,0 +1,55 @@
+/* Estilizando o componente SecaoSobre */
+
+.containerBase {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+   
+}
+
+.containerBase h3{
+    margin-bottom: 20px;
+}
+
+#quemSomos{
+    max-width: 1024px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.containerCards{
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    max-height: 300px;
+    width: 50%;
+    border: solid 1px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card h4{
+    font-size: 48px;
+}
+
+.card p{
+    font-size: 24px;
+    
+}
+
+.imageCard{
+    max-height: 300px;
+    width: 100%;
+}
+
+

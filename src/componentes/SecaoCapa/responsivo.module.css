@@ -1,0 +1,14 @@
+/* Criando a responsividade */
+
+/* Telas de até no máximo 1024 pixels */
+@media (max-width: 1024px) {
+    
+    .capaContainer {
+        background-position: right top;
+    }
+
+    .containerBase{
+        align-items:flex-start;
+    }
+
+}

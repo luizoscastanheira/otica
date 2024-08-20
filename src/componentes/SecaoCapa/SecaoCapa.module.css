@@ -1,0 +1,29 @@
+/* Estilizando a Secao Capa */
+
+.capaContainer {
+    background-color: bisque;
+    height: 90vh;
+    background: url("../../../public/capa.png") no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.containerBase {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.containerBase div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width:50%;
+}
+
+.containerBase div h1{
+    font-size: 48px;
+}
