@@ -17,6 +17,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
        
       </Head>
+      <section className={estilos.section_topo_alerta}>
+        <p>Atenção! Este é um site fictício apenas para fins didáticos.</p>
+      </section>
       <Topo />
       <SecaoCapa />
       <SecaoProdutos />
